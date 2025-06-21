@@ -1,0 +1,16 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_99_21" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="1" width="22" height="20">
+<path d="M22 1.22217H0V20.7777H22V1.22217Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_99_21)">
+<mask id="mask1_99_21" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="1" width="22" height="20">
+<path d="M0 1.22228H22V20.7778H0V1.22228Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_99_21)">
+<path d="M11.0002 2.9028C6.02199 2.9028 1.98633 4.99803 1.98633 10.2361C1.98633 13.3821 3.44245 15.3939 5.68378 16.4995C5.3217 18.1342 4.69813 19.1354 4.69813 19.1354C4.81272 19.1354 6.91341 19.1736 8.46857 17.3674C9.2718 17.5038 10.1212 17.5695 11.0002 17.5695C15.9784 17.5695 20.0141 15.4742 20.0141 10.2361C20.0141 4.99803 15.9784 2.9028 11.0002 2.9028Z" stroke="#1E293B" stroke-width="1.3" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</g>
+<circle cx="7" cy="10" r="1" fill="#1E293B"/>
+<circle cx="11" cy="10" r="1" fill="#1E293B"/>
+<circle cx="15" cy="10" r="1" fill="#1E293B"/>
+</svg>
