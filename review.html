@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <header>
@@ -188,13 +189,13 @@
                 </div>
                 <div class="profile__links">
                     <ul class="df ">
-                        <li class="profile__link profile__link--active">
+                        <li class="profile__link ">
                             <a href="">Лента</a>
                         </li>
                         <li class="profile__link ">
                             <a href="">Друзья</a>
                         </li>
-                        <li class="profile__link ">
+                        <li class="profile__link  profile__link--active">
                             <a href="">Отзывы</a>
                         </li>
                         <li class="profile__link ">
@@ -210,47 +211,123 @@
 
             </div>
             <div class="profile__content df j-spc-btw">
-                <div class="posts">
-                    <div class="post">
-                        <div class="post__header df a-center">
-                            <div class="post__img pr">
+                <div class="reviews">
+                    <h2 class="review__title">Опубликованные отзывы: <span>9</span></h2>
+                    <div class="review__item">
+                        <div class="review__header">
+                            <div class="review__user--info df">
                                 <img src="images/user.svg" alt="">
-                                <span class="status status__active"></span>
+                                <div class="review__user df f-column j-center">
+                                    <h3 class="review__user--name">Семён Семёнов (Авто-груз, ООО)</h3>
+                                    <p class="review__user--date">4 февраля</p>
+                                </div>
+                                <button class="btn btn__post-more"></button>
                             </div>
-                            <h2 class="post__user">Иван Иванов</h2>
-                            <button class="btn btn__post-more"></button>
-                        </div>
-                        <div class="post__content">
-                            <img src="images/post.png" alt="">
-                        </div>
-                        <div class="post__footer df j-spc-btw">
-                            <div class="post__actions df">
-                                   <button class="btn btn__like">14</button>
-                                    <button class="btn btn__comment">3</button>
-                                    <button class="btn btn__share"></button>
+                            <div class="review__stars df a-center">
+                                <img src="images/5.svg" alt="">
+                                <p>Москва — Нижний Новгород</p>
                             </div>
-                            <div class="post__date">2 д назад</div>
+
+                        </div>
+                        <div class="review__body">
+                            <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.</p>
+                        </div>
+                        <div class="review__answer">
+                            <div class="review__item">
+                                <div class="review__header">
+                                    <div class="review__user--info df">
+                                        <img src="images/user.svg" alt="">
+                                        <div class="review__user df f-column j-center">
+                                            <h3 class="review__user--name">Иван Иванов (Олимп-Транс, ООО)</h3>
+                                            <p class="review__user--date">4 февраля</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="review__body">
+                                <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="post">
-                        <div class="post__header df a-center">
-                            <div class="post__img pr">
+                    <div class="review__item">
+                        <div class="review__header">
+                            <div class="review__user--info df">
                                 <img src="images/user.svg" alt="">
-                                <span class="status status__active"></span>
+                                <div class="review__user df f-column j-center">
+                                    <h3 class="review__user--name">Семён Семёнов (Авто-груз, ООО)</h3>
+                                    <p class="review__user--date">4 февраля</p>
+                                </div>
+                                <button class="btn btn__post-more"></button>
                             </div>
-                            <h2 class="post__user">Иван Иванов</h2>
-                            <button class="btn btn__post-more"></button>
-                        </div>
-                        <div class="post__content">
-                            <img src="images/post.png" alt="">
-                        </div>
-                        <div class="post__footer df j-spc-btw">
-                            <div class="post__actions df">
-                                <button class="btn btn__like">14</button>
-                                <button class="btn btn__comment">3</button>
-                                <button class="btn btn__share"></button>
+                            <div class="review__stars df a-center">
+                                <img src="images/5.svg" alt="">
+                                <p>Москва — Нижний Новгород</p>
                             </div>
-                            <div class="post__date">2 д назад</div>
+
+                        </div>
+                        <div class="review__body">
+                            <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.</p>
+                        </div>
+                        <div class="review__answer">
+                            <div class="review__item">
+                                <div class="review__header">
+                                    <div class="review__user--info df">
+                                        <img src="images/user.svg" alt="">
+                                        <div class="review__user df f-column j-center">
+                                            <h3 class="review__user--name">Иван Иванов (Олимп-Транс, ООО)</h3>
+                                            <p class="review__user--date">4 февраля</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="review__body">
+                                    <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__header">
+                            <div class="review__user--info df">
+                                <img src="images/user.svg" alt="">
+                                <div class="review__user df f-column j-center">
+                                    <h3 class="review__user--name">Семён Семёнов (Авто-груз, ООО)</h3>
+                                    <p class="review__user--date">4 февраля</p>
+                                </div>
+                                <button class="btn btn__post-more"></button>
+                            </div>
+                            <div class="review__stars df a-center">
+                                <img src="images/5.svg" alt="">
+                                <p>Москва — Нижний Новгород</p>
+                            </div>
+
+                        </div>
+                        <div class="review__body">
+                            <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.</p>
+                        </div>
+                        <div class="review__answer">
+                            <div class="review__item">
+                                <div class="review__header">
+                                    <div class="review__user--info df">
+                                        <img src="images/user.svg" alt="">
+                                        <div class="review__user df f-column j-center">
+                                            <h3 class="review__user--name">Иван Иванов (Олимп-Транс, ООО)</h3>
+                                            <p class="review__user--date">4 февраля</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="review__body">
+                                    <p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
