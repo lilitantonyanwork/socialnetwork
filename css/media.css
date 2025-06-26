@@ -45,6 +45,62 @@
     .review__date{
         margin-left: auto;
     }
+    .features__list{
+        gap: 20px;
+    }
+    .feature__item {
+        width: calc(100% / 2 - 10px);
+    }
+    .promo-features__right{
+        max-width: 500px;
+    }
+    .feature__text{
+        font-size: 14px;
+    }
+    .feature__title{
+        font-size: 18px;
+    }
+    .promo-features__content{
+        gap: 20px;
+    }
+    .promo-features__left{
+        max-width: calc(100% - 520px);
+    }
+    .promo-section__title{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .promo-features{
+        padding-top: 40px;
+    }
+    .promo-how-to-work{
+        padding-top: 100px;
+    }
+    .promo-how-to-work__content .promo-section__title{
+        margin-bottom: 40px;
+    }
+    .promo-for-who{
+        padding-top: 100px;
+    }
+    .promo-reviews{
+        padding-top: 100px;
+    }
+    .promo{
+        padding-top: 100px;
+    }
+    .promo-faq{
+        padding-top: 100px;
+    }
+    .promo-seo{
+        padding-top: 100px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    .promo-for-who .promo-section__title{
+        margin-bottom: 40px;
+    }
+
 }
 @media screen and (max-width: 1024px){
     .profile__content{
@@ -79,6 +135,12 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    .how-to-work__item{
+        width: calc(100%/2 - 14px   );
+    }
+    .how-to-work__list{
+        flex-wrap: wrap;
+    }
 
 }
 @media screen and (max-width: 990px){
@@ -86,6 +148,27 @@
         max-width: unset;
         margin-right: 40px;
         width: auto;
+    }
+    .for-who__list{
+        flex-wrap: wrap;
+    }
+    .for-who__item{
+        width: calc(100%/2 - 10px);
+    }
+    .promo__content--right{
+        max-width: 450px;
+    }
+    .promo__content--left{
+        max-width: calc(100% - 470px);
+    }
+    .promo__content--right .promo-section__title{
+        font-size: 24px;
+    }
+    .section__text{
+        font-size: 14px;
+    }
+    .promo__content{
+        padding-right: 40px;
     }
 }
 @media screen and (max-width: 900px){
@@ -186,7 +269,34 @@
         justify-content: space-between;
         gap: 20px;
     }
+    .promo-features__content{
+        flex-direction: column;
+    }
+    .promo-features__left{
+        min-height: 200px;
+        max-width: 100%;
+    }
+    .promo-features__right{
+        max-width: 100% ;
+    }
+    .promo-reviews__list{
+        flex-direction: column;
+    }
+    .promo__content{
+        flex-direction: column;
+        padding: 30px;
+    }
 
+    .footer__content{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer__col{
+        width: 45%;
+    }
+    .footer__copyright{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 600px){
     .filter__row{
@@ -201,8 +311,66 @@
     .filter__input{
         width: 100%;
     }
+    .promo-banner__title{
+        font-size: 30px;
+    }
+    .feature__item{
+        width: 100%;
+    }
+    .promo-how-to-work{
+        padding-top: 40px;
+    }
+    .promo-for-who, .promo-faq, .promo-seo{
+        padding-top: 40px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .promo {
+        padding-top: 40px;
+    }
+    .for-who__item{
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+    .for-who__item .btn__registration{
+        margin-top: 40px;
+    }
+    .promo-seo__content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    header .btn__login{
+        font-size: 14px;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__actions .btn__registration{
+        font-size: 14px;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .promo-banner__content{
+        padding: 30px;
+    }
+    .promo-reviews{
+        padding-top: 40px;
+    }
 }
 @media screen and (max-width: 480px){
+    .footer__menu{
+        min-width: auto;
+    }
+    .header__actions{
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
     .profile__buttons{
         flex-direction: column;
     }
@@ -231,5 +399,16 @@
         position: absolute;
         top: 10px;
         right: 0;
+    }
+    .how-to-work__item{
+        width: 100%;
+    }
+    .footer__col{
+        width: 100%;
+    }
+    .btn__registration{
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
     }
 }

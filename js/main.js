@@ -77,31 +77,49 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
-document.querySelector('.btn__aside').addEventListener('click', function () {
-    const aside = document.querySelector('aside');
-    const button = this;
+if(document.querySelector('.btn__aside')){
+    document.querySelector('.btn__aside').addEventListener('click', function () {
+        const aside = document.querySelector('aside');
+        const button = this;
 
-    if (button.classList.contains('close')) {
-        // Закрываем
-        aside.classList.remove('open');
-        button.classList.remove('close');
-    } else {
-        // Открываем
-        aside.classList.add('open');
-        button.classList.add('close');
-    }
-});
-document.querySelector('.btn__mobile').addEventListener('click', function () {
-    const aside = document.querySelector('.menu');
-    const button = this;
+        if (button.classList.contains('close')) {
+            // Закрываем
+            aside.classList.remove('open');
+            button.classList.remove('close');
+        } else {
+            // Открываем
+            aside.classList.add('open');
+            button.classList.add('close');
+        }
+    });
+}
+if(document.querySelector('.btn__mobile')) {
+    document.querySelector('.btn__mobile').addEventListener('click', function () {
+        const aside = document.querySelector('.menu');
+        const button = this;
 
-    if (button.classList.contains('close')) {
-        // Закрываем
-        aside.classList.remove('open');
-        button.classList.remove('close');
-    } else {
-        // Открываем
-        aside.classList.add('open');
-        button.classList.add('close');
-    }
-});
+        if (button.classList.contains('close')) {
+            // Закрываем
+            aside.classList.remove('open');
+            button.classList.remove('close');
+        } else {
+            // Открываем
+            aside.classList.add('open');
+            button.classList.add('close');
+        }
+    });
+}
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}

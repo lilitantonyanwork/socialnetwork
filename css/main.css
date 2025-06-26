@@ -1071,3 +1071,355 @@ main{
 .btn__mobile{
     display: none;
 }
+
+.accordion {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s;
+    font-family: Inter, sans-serif;
+    text-align: left;
+}
+
+.panel {
+    padding: 0 30px 30px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+.promo-banner{
+    height: 527px;
+}
+.promo-banner__content{
+    height: 100%;
+    background: #fff;
+    padding: 45px;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.promo-banner__title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+}
+.promo-banner__sub{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: Inter, sans-serif;
+}
+.promo-banner__text{
+    max-width: 535px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    font-family: Inter, sans-serif;
+}
+.btn__registration{
+    height: 59px;
+    font-size: 16px;
+    padding: 20px 30px;
+    border-radius: 111px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo-features{
+    padding-top: 80px;
+}
+.promo-features__content{
+    gap: 60px;
+}
+.promo-features__right{
+    max-width: 650px;
+    width: 100%;
+}
+.promo-features__left{
+    max-width: calc(100% - 710px);
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+}
+.promo-features__left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.promo-section__title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin-bottom: 60px;
+}
+.features__list{
+    gap: 60px 80px;
+    margin-bottom: 24px;
+}
+.feature__item{
+    width: calc(100%/2 - 40px);
+}
+.feature__item--icon{
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.feature__title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin-bottom: 10px;
+}
+.feature__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+
+}
+.promo-how-to-work{
+    padding-top: 150px;
+}
+.promo-how-to-work__content .promo-section__title{
+    margin-bottom: 50px;
+}
+.how-to-work__list{
+    gap: 20px;
+}
+.how-to-work__item{
+    padding: 30px;
+    height: 304px;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+}
+.how-to-work__title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+}
+.how-to-work__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+
+}
+.promo-for-who{
+    padding-top: 159px;
+}
+.promo-for-who .promo-section__title{
+    margin-bottom: 50px;
+}
+.for-who__list{
+    gap: 20px;
+}
+.for-who__item{
+    background: #fff;
+    height: 517px;
+    border-radius: 20px;
+    align-items: flex-start;
+    padding: 30px;
+}
+.for-who__title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin-bottom: 10px;
+}
+.for-who__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+
+}
+.for-who__item .btn__registration{
+    margin-top: auto;
+}
+.promo-reviews{
+    padding-top: 159px;
+}
+.promo-reviews .promo-section__title{
+    margin-bottom: 50px;
+}
+.promo-reviews__list{
+    gap: 20px;
+    
+}
+.promo-reviews__item{
+    background: #fff;
+    padding:30px 59px 40px 30px;
+    border-radius: 20px;
+}
+.promo-reviews__user{
+    margin-bottom: 22px;
+    gap: 20px;
+}
+.promo-reviews__user--img{
+    width: 86px;
+    height: 89px;
+    background: #909090;
+    border-radius: 20px;
+}
+.promo-reviews__user--info h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+.promo-reviews__user--info h3 span{
+    color: #5C5C5C;
+    font-size: 16px;
+    font-weight: 400;
+}
+.promo-reviews__user--info p{
+    color: #5C5C5C;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+
+}
+.promo-reviews__content{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    line-height: 1.4;
+}
+.promo{
+    padding-top: 159px;
+}
+.promo__content {
+    background: #fff;
+    min-height: 356px;
+    border-radius: 20px;
+    padding-right: 61px;
+    gap: 20px;
+}
+.promo__content--right{
+    max-width: 567px;
+    width: 100%;
+    align-items: flex-start;
+}
+.promo__content--left{
+    max-width: calc(100% - 587px);
+    width: 100%;
+
+}
+.promo__content--right .promo-section__title{
+    margin-bottom: 25px;
+    font-size: 32px;
+
+}
+.section__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+.promo__content--right  .btn__registration{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.promo-faq{
+    padding-top: 159px;
+}
+.promo-faq .promo-section__title{
+    margin-bottom: 43px;
+}
+.faq{
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.faq:last-child{
+    margin-bottom: 0;
+}
+.faq .panel{
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+.faq .panel p{
+    margin-bottom: 20px;
+}
+.faq .panel ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.promo-seo{
+    padding-top: 159px;
+}
+.promo-seo__content{
+    background: #fff;
+    padding: 40px 53px 60px 30px;
+    border-radius: 20px;
+
+}
+.promo-seo .promo-section__title{
+    margin-bottom: 30px;
+}
+.promo-seo__desc{
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+}
+.promo-seo__desc p{
+    margin-bottom: 20px;
+}
+.promo-seo__desc p:last-child{
+    margin-bottom: 0;
+}
+footer{
+    margin-top: 136px;
+    background: #fff;
+    padding-top: 44px;
+    padding-bottom: 25px;
+}
+
+.footer__menu{
+    gap: 10px;
+    min-width: 200px;
+
+}
+.footer__link{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    color: #1E293B;
+}
+
+.footer__copyright{
+    margin-top: 53px;
+    color: #7C7E82;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+header .btn__login{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    border-radius: 111px;
+    height: 39px;
+}
+.header__actions {
+    margin-left: auto;
+    gap: 15px;
+}
+.header__actions .btn__registration{
+    height: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
