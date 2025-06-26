@@ -411,4 +411,13 @@
         font-size: 14px;
         text-align: center;
     }
+    .registration__content{
+        padding: 30px 20px;
+    }
+    .registration__text{
+        font-size: 14px;
+    }
+    .form__row .select-selected{
+        font-size: 14px;
+    }
 }

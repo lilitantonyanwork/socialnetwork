@@ -708,6 +708,13 @@ main{
     font-size: 14px;
 }
 
+.select-items div{
+    border: none;
+    border-bottom: 1px solid #A1B1C8;
+}
+.select-items div:last-child{
+    border-bottom: 0;
+}
 /*style items (options):*/
 .select-items {
     position: absolute;
@@ -716,6 +723,7 @@ main{
     left: 0;
     right: 0;
     z-index: 99;
+    border: 1px solid #A1B1C8;
 }
 
 .select-arrow-active{
@@ -1422,4 +1430,109 @@ header .btn__login{
     height: 39px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.registration__content{
+    background: #fff;
+    border-radius: 20px;
+    max-width: 558px;
+    margin: 0 auto;
+    padding: 60px 50px 50px;
+
+}
+.registration__title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+}
+.registration__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    margin-bottom: 40px;
+}
+.form__row{
+    margin-bottom: 25px;
+}
+.form__row .custom-select, .select-items div, .select-selected{
+    width: 100%;
+}
+.form__row .select-selected{
+    height: 68px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    background: #EEEEEE;
+    border: none;
+
+}
+.registration__form .select-selected:after{
+    background: url('../images/arrow-down-reg.svg') no-repeat;
+    width: 28px;
+    height: 28px;
+    top: 20px;
+    right: 20px;
+}
+.form__row label{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    margin-bottom: 5px;
+}
+.form__input{
+    height: 46px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}
+#phone{
+    padding-left: 76px;
+}
+.phone__code{
+    width: 56px;
+    height: 46px;
+    position: absolute;
+    background: #CFCFCF;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.checkbox__row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    
+}
+.checkbox__row input[type=checkbox]{
+    background: #D8D8D8;
+    border: none;
+}
+.registration__form .btn__registration{
+    width: 100%;
+    border-radius: 5px;
+    height: 68px;
+    margin-bottom: 25px;
+}
+.form__row:last-child{
+    margin-bottom: 0;
+
+}
+.form__row a{
+    color: #3C8AFF;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+
+}
+.registration{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.registration__form .select-items{
+    background: #EEEEEE;
+
 }

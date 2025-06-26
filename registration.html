@@ -20,15 +20,54 @@
             <div class="registration__content">
                 <h2 class="registration__title">Создать аккаунт</h2>
                 <p class="registration__text">
-                    Укажите ваш профиль деятельности
-                    Мы <br>покажем его другим участникам, чтобы вам было легче находить партнёров.
-                    Вы <br>сможете изменить свой выбор в
-                    <br>любой момент после регистрации.
+                    Укажите ваш профиль деятельности<br>
+                    Мы покажем его другим участникам, чтобы вам было легче  находить партнёров.
+                    Вы сможете изменить <br> свой выбор в
+                    любой момент после регистрации.
                 </p>
                 <form class="registration__form">
-                    <div class="form__row">
-                        
+                    <div class="form__row pr">
+                        <div class="custom-select">
+                            <select name="contacts">
+                                <option value="0">Выберете специализацию</option>
+                                <option value="1">специализация 1</option>
+                                <option value="2">специализация 2</option>
+                                <option value="3">специализация 3</option>
+                                <option value="4">специализация 4</option>
+                                <option value="5">специализация 5</option>
+                            </select>
+                        </div>
                     </div>
+                    <div class="form__row pr df f-column">
+                        <label for="email">Email</label>
+                        <input type="email" class="form__input" id="email">
+                    </div>
+                    <div class="form__row pr df f-column">
+                        <label for="login">Логин</label>
+                        <input type="text" class="form__input" id="login">
+                    </div>
+                    <div class="form__row pr df f-column">
+                        <label for="password">Пароль</label>
+                        <input type="password" class="form__input" id="password">
+                    </div>
+                    <div class="form__row pr df f-column">
+                        <label for="phone">Мобильный телефон</label>
+                        <span class="phone__code"></span>
+                        <input type="tel" class="form__input" id="phone" placeholder="+ 7 999 999-99-99">
+                    </div>
+                    <div class="form__row pr">
+                        <label for="confirm" class="checkbox__row">
+                            <input type="checkbox" id="confirm">
+                            вы принимаете условия Пользовательского соглашения
+                        </label>
+                    </div>
+                    <div class="form__row pr df f-column a-center">
+                        <button class="btn btn__blue btn__registration">
+                            ЗАРЕГИСТРИРОВАТЬСЯ
+                        </button>
+                        <a href="">У меня уже есть аккаунт</a>
+                    </div>
+
                 </form>
             </div>
         </div>
